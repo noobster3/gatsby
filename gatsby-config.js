@@ -9,4 +9,4 @@ module.exports = {
   plugins: [],
 };
 
-console.log('Environment Variables:', JSON.stringify(process.env, null, 2));
+console.log(process.env);
